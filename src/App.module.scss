@@ -1,0 +1,72 @@
+#personSection{
+  // background:red;
+  position: relative;
+}
+.hexagonExample{
+  height:20rem;
+  width:20rem;
+  position:absolute;
+  left:5rem;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+#body{
+  position: relative;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+#heroCont{
+  position:relative;
+  display: flex;
+  align-items: center;
+}
+
+.sideGrad{
+  height:100%;
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,0,0,0) 5%, rgba(102,9,9,0) 95%, rgba(255,255,255,1) 100%); 
+}
+
+.top, .topRight, .bottomRight, .bottom, .bottomLeft, .topLeft{
+  position:absolute;
+  text-shadow: 0px 0px 3px white;
+  font-size:1.5rem;
+  font-weight: 900;
+}
+
+.top{
+  top:-3rem;
+}
+.topRight{
+  top:1rem;
+  right:-5.5rem;
+}
+.bottomRight{
+  bottom:0;
+  right:-4.5rem;
+  text-align: left;
+}
+.bottom{
+  bottom:-3rem;
+}
+.bottomLeft{
+  left:-3.5rem;
+  bottom:0;
+  text-align: right;
+}
+.topLeft{
+  top:1rem;
+  left:-4.5rem;
+}
+.icon{
+  color:rgb(0, 0, 62);
+  font-size: 2rem;
+  background:rgba(255, 255, 255, 0.1);
+  padding:2px;
+}

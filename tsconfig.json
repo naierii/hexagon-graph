@@ -1,5 +1,11 @@
+/*
+This file is used on both JS and TS file.
+- By Reian
+*/
 {
   "compilerOptions": {
+    "baseUrl":"src",
+    "paths":{},
     "target": "es5",
     "lib": [
       "dom",
@@ -21,6 +27,7 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
-  ]
+    "src",
+    "declarations.d.ts"
+  ],
 }
